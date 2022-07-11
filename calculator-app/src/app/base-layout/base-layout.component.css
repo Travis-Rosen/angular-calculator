@@ -1,0 +1,23 @@
+/*
+-Travis Rosen
+-07/09/2022
+-base-layout.component.css
+-Styling for base layout page\
+*/
+
+.title {
+  color: brown;
+  font-weight: 300;
+}
+
+.main-container {
+
+  width: 50%;
+  margin: 1%;
+}
+
+.nav {
+ background-color: brown;
+ color: white;
+}
+

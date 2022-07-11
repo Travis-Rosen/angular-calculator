@@ -1,0 +1,27 @@
+<!--
+  -Travis Rosen
+  -07/09/2022
+  -calc.component.html
+  -HTML page for calculator
+-->
+
+<!--Start of calculator HTML-->
+<div class="container">
+  <div class="calc">
+    <!--This is the screen that will display current value, set to 0 at default-->
+    <input type="text" class="screen" [value]="currentNumber" disabled />
+    <div class="calc-buttons">
+      <!--Clear button-->
+      <button type="button" class="btn clear span-4" value="clear" (click)="clear()" >AC</button>
+      <!--Pulling from operator service to display respective buttons-->
+      <button type="button" *ngFor="let op of calcOperators"  class="btn symbol" [value]="op" (click)="getOperation(op.operator)">{{op.operator}}</button>
+      <!--Pulling from numbers service to display respective buttons-->
+      <button type="button" *ngFor="let nb of calcNumbers" class="btn numbers"[value]="nb" (click)="getNumber(nb.num)">{{nb.num}}</button>
+      <!--Decimal and equals button-->
+      <button type="button" class="btn decimal" value="." (click)="getDecimal()">.</button>
+      <button type="button" class="btn symbol" value="=" (click)="getOperation('=')">=</button>
+    </div>
+  </div>
+</div>
+
+
