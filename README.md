@@ -16,4 +16,4 @@
 
 4. This may take a quick minute, once it is finished within the projects root directory there should be a folder titled "calculator-app-win32-64x // calculator-app-linux-64x". From there you can select the exe file to run the app. 
 
-5. If the exe file fails, after installing node modules, you alternatively can run 'npm start'.
+5. If the exe file fails, you alternatively try to run 'npm start' from the terminal (<..\calculator-app> npm start).
