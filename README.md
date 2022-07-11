@@ -14,4 +14,4 @@
 
     *Must be ran from the 'calculator-app' directory
 
-4. This may take a quick minute, once it is finished within the projects root directory there should be a folder titled "calculator-app-win32-64x // calculator-app-linux-64x" 
+4. This may take a quick minute, once it is finished within the projects root directory there should be a folder titled "calculator-app-win32-64x // calculator-app-linux-64x". From there you can select the exe file to run the app. 
