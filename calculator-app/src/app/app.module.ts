@@ -15,7 +15,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon'
 import { MatButtonModule } from '@angular/material/button';
-import { HttpClientModule } from '@angular/common/http';
 import { ContactComponent } from './contact/contact.component';
 
 
@@ -35,7 +34,6 @@ import { ContactComponent } from './contact/contact.component';
     MatButtonModule,
     MatCardModule,
     MatToolbarModule,
-    HttpClientModule,
     MatIconModule
   ],
   providers: [
